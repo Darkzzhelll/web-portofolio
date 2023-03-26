@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b00514d0.css",
+    "main.js": "/static/js/main.09ad9d3b.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/outness.jpg": "/static/media/outness.6804588cf95ebac46f20.jpg",
+    "static/media/nakam.jpg": "/static/media/nakam.cabeb9c61294105ee02f.jpg",
+    "static/media/profile.png": "/static/media/profile.f89d4799a3daa8b633b3.png",
+    "static/media/widuri.jpg": "/static/media/widuri.7ac85aa27be09a984dca.jpg",
+    "static/media/jedekan.jpg": "/static/media/jedekan.ecf052f21c93ed53d828.jpg",
+    "static/media/idea_finder.jpg": "/static/media/idea_finder.1503213f1d4d495c6ad6.jpg",
+    "static/media/simas.jpg": "/static/media/simas.b8e5a5f56e5e71b64774.jpg",
+    "static/media/Saya.png": "/static/media/Saya.31e51062a1cada7504b9.png",
+    "static/media/cv.pdf": "/static/media/cv.8bfd0fa710537d3edae2.pdf",
+    "index.html": "/index.html",
+    "main.b00514d0.css.map": "/static/css/main.b00514d0.css.map",
+    "main.09ad9d3b.js.map": "/static/js/main.09ad9d3b.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b00514d0.css",
+    "static/js/main.09ad9d3b.js"
+  ]
+}
