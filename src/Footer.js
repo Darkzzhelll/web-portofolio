@@ -3,7 +3,7 @@ import { SocialIcon } from "react-social-icons";
 
 export default function Footer(){
     return(
-        <section className="px-8 lg:px-16 bg-black drop-shadow-lg pb-8 pb-4 lg:pt-8 lg:pb-16">
+        <section className="px-8 lg:px-16 bg-black drop-shadow-lg pb-8 lg:pt-8 lg:pb-16">
             <div className="flex flex-col">
                 <span className="text-medium text-3xl text-start text-secondary2">Get in touch</span>
                 <p className="text-base text-start text-secondary2 mt-2">For business inquiry please send email to <a href="mailto:ryansutawijaya@gmail.com" className="text-blue"><u>ryansutawijaya@gmail.com</u></a></p>
@@ -16,7 +16,7 @@ export default function Footer(){
                   target={"_blank"}
                   className="mr-2 group"
                 >
-                  <button className="block flex rounded-full group-hover:hidden">
+                  <button className="block rounded-full group-hover:hidden">
                     <SocialIcon
                       network="dribbble"
                       style={{ height: 40, width: 40 }}
@@ -42,7 +42,7 @@ export default function Footer(){
                   target={"_blank"}
                   className="mr-2 group"
                 >
-                  <button className="block flex rounded-full group-hover:hidden">
+                  <button className="block rounded-full group-hover:hidden">
                     <SocialIcon
                       network="instagram"
                       style={{ height: 40, width: 40 }}
@@ -68,7 +68,7 @@ export default function Footer(){
                   target={"_blank"}
                   className="mr-2 group"
                 >
-                  <button className="block flex rounded-full  group-hover:hidden">
+                  <button className="block rounded-full  group-hover:hidden">
                     <SocialIcon
                       network="facebook"
                       style={{ height: 40, width: 40 }}
@@ -94,7 +94,7 @@ export default function Footer(){
                   target={"_blank"}
                   className="mr-2 group"
                 >
-                  <button className="block flex rounded-full group-hover:hidden">
+                  <button className="block rounded-full group-hover:hidden">
                     <SocialIcon
                       network="github"
                       style={{ height: 40, width: 40 }}

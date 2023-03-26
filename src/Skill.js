@@ -56,7 +56,7 @@ export default function Skill() {
             </span>
           </div>
           <div
-            className="flex flex flex-col-reverse lg:flex-row lg:items-end lg:justify-end"
+            className="flex flex-col-reverse lg:flex-row lg:items-end lg:justify-end"
             data-aos="zoom-in-down"
           >
             <span className="text-base font-medium self-center text-secondary2 basis-3/5 text-center lg:text-end">

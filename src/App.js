@@ -68,7 +68,7 @@ class App extends Component {
                   target={"_blank"}
                   className="mr-2 group"
                 >
-                  <button className="block flex rounded-full group-hover:hidden">
+                  <button className="block rounded-full group-hover:hidden">
                     <SocialIcon
                       network="dribbble"
                       style={{ height: 40, width: 40 }}
@@ -94,7 +94,7 @@ class App extends Component {
                   target={"_blank"}
                   className="mr-2 group"
                 >
-                  <button className="block flex rounded-full group-hover:hidden">
+                  <button className="block rounded-full group-hover:hidden">
                     <SocialIcon
                       network="instagram"
                       style={{ height: 40, width: 40 }}
@@ -120,7 +120,7 @@ class App extends Component {
                   target={"_blank"}
                   className="mr-2 group"
                 >
-                  <button className="block flex rounded-full  group-hover:hidden">
+                  <button className="block  rounded-full  group-hover:hidden">
                     <SocialIcon
                       network="facebook"
                       style={{ height: 40, width: 40 }}
@@ -146,7 +146,7 @@ class App extends Component {
                   target={"_blank"}
                   className="mr-2 group"
                 >
-                  <button className="block flex rounded-full group-hover:hidden">
+                  <button className="blockrounded-full group-hover:hidden">
                     <SocialIcon
                       network="github"
                       style={{ height: 40, width: 40 }}
