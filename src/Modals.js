@@ -15,7 +15,7 @@ export default function Modal() {
         onClick={() => 
           MySwal.fire({
           title: <strong>Opssss</strong>,
-          html: <i>No more project availables</i>,
+          html: <i>No more project available</i>,
           icon: 'error'
         })}
       >
