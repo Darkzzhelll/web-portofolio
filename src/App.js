@@ -1,14 +1,16 @@
 import "./App.css";
 import Navbar from "./Navbar.js";
+import Tools from "./Tools.js";
 import Project from "./Project.js";
 import Profile from "./assets/profile.png";
 import Skill from "./Skill.js";
 import Footer from "./Footer";
 import CV from "./assets/cv.pdf"
-import { Component } from "react";
+import { Component, useEffect } from "react";
 import React from "react";
 import { SocialIcon } from "react-social-icons";
 import { ArrowDownTrayIcon, EnvelopeIcon } from "@heroicons/react/24/outline";
+
 
 class App extends Component {
   render() {
@@ -18,9 +20,9 @@ class App extends Component {
         <header>
           <div className="flex flex-col-reverse lg:flex-row justify-between">
             <div className="basis-2/5 flex flex-col items-start self-center mx-8 lg:ml-16">
-              <h2 className="md:text-2xl text-base text-secondary1">
+              <span className="md:text-2xl text-base text-secondary1">
                 Hello, i'am Ryan Sutawijaya
-              </h2>
+              </span>
               <h1 className="text-2xl md:text-4xl text-aksen md:mt-1 mt-auto font-bold">
                 Junior UI/UX Designer
               </h1>
@@ -186,6 +188,9 @@ class App extends Component {
           </div>
           <div>
             <Project />
+          </div>
+          <div>
+            <Tools/>
           </div>
           <div>
             <Footer />

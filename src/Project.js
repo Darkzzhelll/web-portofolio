@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { SocialIcon } from "react-social-icons";
 import project1 from "./assets/idea_finder.jpg";
 import project2 from "./assets/nakam.jpg";
@@ -7,8 +7,13 @@ import code_project1 from "./assets/simas.jpg";
 import code_project2 from "./assets/jedekan.jpg";
 import code_project3 from "./assets/widuri.jpg"
 import Modal from "./Modals";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 export default function Projects() {
+  useEffect(()=>{
+    Aos.init({duration:500});
+  },[]);
   return (
     <div >
       <section className=" mx-8 lg:mx-16 py-8 lg:py-16 " id="Projects">
@@ -24,7 +29,7 @@ export default function Projects() {
         </div>
         {/* Project1 */}
         <div className="flex flex-col lg:flex-row justify-between my-4 lg:my-4">
-          <div className="basis-0,3">
+          <div className="basis-0,3" data-aos ="fade-down-right">
             <a
               href="https://dribbble.com/shots/19180403-IDHE-Idea-Finder-App"
               target={"_blank"}
@@ -59,7 +64,7 @@ export default function Projects() {
           </div>
 
           {/* Project2 */}
-          <div className="basis-0,3 ">
+          <div className="basis-0,3 " data-aos="fade-down">
             <a
               href="https://dribbble.com/shots/19180403-IDHE-Idea-Finder-App"
               target={"_blank"}
@@ -94,7 +99,7 @@ export default function Projects() {
           </div>
 
           {/* Project3 */}
-          <div className="basis-0,3 ">
+          <div className="basis-0,3 " data-aos ="fade-down-left" >
             <a
               href="https://dribbble.com/shots/19180403-IDHE-Idea-Finder-App"
               target={"_blank"}
@@ -137,7 +142,7 @@ export default function Projects() {
         </div>
         {/* Project1 */}
         <div className="flex flex-col lg:flex-row justify-between my-4 lg:my-4">
-          <div className="basis-0,3">
+          <div className="basis-0,3"  data-aos="fade-up-right">
             <a
               href="https://github.com/lamkhil/react_batu_air"
               target={"_blank"}
@@ -172,7 +177,7 @@ export default function Projects() {
           </div>
 
           {/* Project2 */}
-          <div className="basis-0,3 ">
+          <div className="basis-0,3 "  data-aos="fade-up">
             <a
               href="https://github.com/bigshifu/Jedekan"
               target={"_blank"}
@@ -207,7 +212,7 @@ export default function Projects() {
           </div>
 
           {/* Project3 */}
-          <div className="basis-0,3 ">
+          <div className="basis-0,3 " data-aos="fade-up-left">
             <a
               href="https://github.com/lamkhil/widuri"
               target={"_blank"}
