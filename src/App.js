@@ -6,7 +6,7 @@ import Profile from "./assets/profile.png";
 import Skill from "./Skill.js";
 import Footer from "./Footer";
 import CV from "./assets/cv.pdf"
-import { Component, useEffect } from "react";
+import { Component} from "react";
 import React from "react";
 import { SocialIcon } from "react-social-icons";
 import { ArrowDownTrayIcon, EnvelopeIcon } from "@heroicons/react/24/outline";
@@ -189,9 +189,7 @@ class App extends Component {
           <div>
             <Project />
           </div>
-          <div>
-            <Tools/>
-          </div>
+         
           <div>
             <Footer />
           </div>

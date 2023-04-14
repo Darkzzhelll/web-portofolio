@@ -22,7 +22,7 @@ export default function Skill() {
         className="hidden lg:block absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/4 object-cover scale-125"
         style={{ objectPosition: "35px -110px" }}
       />
-      <div className="py-8 base:py-16 mx-8 base:mx-16">
+      <div className="py-8 lg:py-16">
         <span className="text-center self-center font-medium text-3xl lg:text-5xl base:font-semibold text-secondary2 ">
           My Skill
         </span>

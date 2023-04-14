@@ -3,7 +3,7 @@ import { SocialIcon } from "react-social-icons";
 
 export default function Footer(){
     return(
-        <section className="px-8 lg:px-16 bg-black drop-shadow-lg pb-8 lg:pt-8 lg:pb-16">
+        <section className="px-8 lg:px-16 bg-black drop-shadow-lg pb-8 pt-4 lg:pt-8 lg:pb-16">
             <div className="flex flex-col">
                 <span className="text-medium text-3xl text-start text-secondary2">Get in touch</span>
                 <p className="text-base text-start text-secondary2 mt-2">For business inquiry please send email to <a href="mailto:ryansutawijaya@gmail.com" className="text-blue"><u>ryansutawijaya@gmail.com</u></a></p>
